@@ -22,8 +22,6 @@ The program will then display the order menu details
 including the cost of each burger and sauce, the fees+ 
 and the total cost.
 
-This information will also be automatically written to
-a text file.
 
 **************************''')
 
@@ -365,7 +363,7 @@ total_burger_cost = sum(burger_price_list)
 total_sauce_cost = sum(sauce_price_list)
 
 # ask user if they want to pay with cash or credit
-payment_method = string_checker("Choose a choose (cash / "
+payment_method = string_checker("Choose a payment method (cash / "
                                 "credit(5%): ",
                                 payment_list)
 if payment_method == "cash":
