@@ -17,8 +17,6 @@ The program will then display the order menu details
 including the cost of each burger and sauce, the fees+ 
 and the total cost.
 
-This information will also be automatically written to
-a text file.
 
 **************************''')
 
